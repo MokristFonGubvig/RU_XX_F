@@ -342,32 +342,127 @@ function load(){
 }
 
 // RU songs
-const ru_1970_m_icon = [
+const ru_19XX_f_icon = [
 	'pop'
 ];
 
-const RU_1970_M_PACK_1 = 1;
+const RU_19XX_F_PACK_1 = 1;
 
-let ru_1970_m = [
+let ru_19XX_f = [
 		{
-			pack : RU_1970_M_PACK_1,
-			group : 'Олег Даль',
-			song : 'Мальчик Купидон (1975)'
+			pack : RU_19XX_F_PACK_1,
+			group : 'Аида Ведищева',
+			song : 'Гололед (1969)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Аида Ведищева',
+			song : 'Помоги мне (Танго-пародия) (1968)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Аида Ведищева',
+			song : 'Чёт или нечет (1969)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Гелена Великанова',
+			song : 'Ландыши (1958)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Изабелла Юрьева',
+			song : 'Саша (1939)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Клавдия Шульженко',
+			song : 'Руки (1966)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Лидия Клемент',
+			song : 'Дождь на Неве (1964)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Лидия Русланова',
+			song : 'Валенки (1943)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Людмила Гурченко',
+			song : 'Пять минут (1956)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Людмила Зыкина',
+			song : 'Оренбургский пуховый платок (1967)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Людмила Зыкина',
+			song : 'Течёт Волга (1962)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Людмила Зыкина',
+			song : 'Черемуха (1965)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Майя Кристалинская',
+			song : 'А снег идёт (1961)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Майя Кристалинская',
+			song : 'Нежность (1966)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Майя Кристалинская',
+			song : 'Я тебя подожду (1963)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Нина Бродская',
+			song : 'Август (1966)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Тамара Миансарова',
+			song : 'Черный кот (1964)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Эдита Пьеха',
+			song : 'Наш сосед (1967)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Эдита Пьеха',
+			song : 'Песня остаётся с человеком (1964)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Эдита Пьеха',
+			song : 'Хорошо (1964)'
 		}
 ];
 
-let ru_1970_m_1 =	ru_1970_m.filter(item => item.pack == 1);
+let ru_19XX_f_1 =	ru_19XX_f.filter(item => item.pack == 1);
 
 let music = [
 	{
-		arr: ru_1970_m,
+		arr: ru_19XX_f,
 		lang: 'ru',
 		year: '1970',
-		type: 'm',
+		type: 'f',
 		packs: [
 				{
-					arr: ru_1970_m_1,
-					name: 'RU 1970s Male: Pop'
+					arr: ru_19XX_f_1,
+					name: 'RU 1970s Female: Pop'
 				}
 			]
 	}
@@ -695,9 +790,9 @@ let generateImgPath;
 
 function setup(){
 	lang = 'ru';
-	year = '1970';
-	artist_type = 'm';
-	package_names = ru_1970_m_icon;
+	year = '19XX';
+	artist_type = 'f';
+	package_names = ru_19XX_f_icon;
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
