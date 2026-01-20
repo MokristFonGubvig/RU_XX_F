@@ -457,12 +457,12 @@ let music = [
 	{
 		arr: ru_19XX_f,
 		lang: 'ru',
-		year: '1970',
+		year: '19XX',
 		type: 'f',
 		packs: [
 				{
 					arr: ru_19XX_f_1,
-					name: 'RU 1970s Female: Pop'
+					name: 'RU 19XXs Female: Pop'
 				}
 			]
 	}
