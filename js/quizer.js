@@ -376,11 +376,6 @@ let ru_19XX_f = [
 		},
 		{
 			pack : RU_19XX_F_PACK_1,
-			group : 'Клавдия Шульженко',
-			song : 'Руки (1966)'
-		},
-		{
-			pack : RU_19XX_F_PACK_1,
 			group : 'Лидия Клемент',
 			song : 'Дождь на Неве (1964)'
 		},
@@ -448,6 +443,11 @@ let ru_19XX_f = [
 			pack : RU_19XX_F_PACK_1,
 			group : 'Эдита Пьеха',
 			song : 'Хорошо (1964)'
+		},
+		{
+			pack : RU_19XX_F_PACK_1,
+			group : 'Клавдия Шульженко',
+			song : 'Руки (1966)'
 		}
 ];
 
