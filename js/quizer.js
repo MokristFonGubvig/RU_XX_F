@@ -352,7 +352,8 @@ let ru_19XX_f = [
 		{
 			pack : RU_19XX_F_PACK_1,
 			group : 'Аида Ведищева',
-			song : 'Гололед (1969)'
+			song : 'Гололед (1969)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_F_PACK_1,
@@ -362,7 +363,8 @@ let ru_19XX_f = [
 		{
 			pack : RU_19XX_F_PACK_1,
 			group : 'Аида Ведищева',
-			song : 'Чёт или нечет (1969)'
+			song : 'Чёт или нечет (1969)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_F_PACK_1,
@@ -372,7 +374,8 @@ let ru_19XX_f = [
 		{
 			pack : RU_19XX_F_PACK_1,
 			group : 'Изабелла Юрьева',
-			song : 'Саша (1939)'
+			song : 'Саша (1939)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_F_PACK_1,
@@ -402,7 +405,8 @@ let ru_19XX_f = [
 		{
 			pack : RU_19XX_F_PACK_1,
 			group : 'Людмила Зыкина',
-			song : 'Черемуха (1965)'
+			song : 'Черемуха (1965)',
+			ignore : true
 		},
 		{
 			pack : RU_19XX_F_PACK_1,
